@@ -1,0 +1,166 @@
+.Products {
+  padding: 80px; }
+
+@font-face {
+  font-family: sans;
+  src: url("../../../Assets/Libre_Baskerville/LibreBaskerville-Italic.ttf"); }
+
+.Products__header-text {
+  font-family: sans;
+  font-size: 20px;
+  color: #505050; }
+
+.NEW__PRODUCTS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100px; }
+
+.NEW__PRODUCTS div,
+.NEW__PRODUCTS h1 {
+  margin-left: 5%; }
+
+.NEW__PRODUCTS div {
+  width: 10%;
+  height: 6%;
+  background-color: #000; }
+
+.Products__cotainer {
+  padding-top: 20px; }
+
+.Products__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.Products__card-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 350px !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 10px;
+  overflow: hidden; }
+  .Products__card-item .card-img {
+    height: 180px !important; }
+  .Products__card-item .card-text {
+    margin: 0 !important;
+    height: 25px; }
+  .Products__card-item .card-body {
+    height: 200px !important; }
+    .Products__card-item .card-body .card-title {
+      margin: 0 !important;
+      height: 50px;
+      overflow: hidden; }
+
+.Products__card-item img {
+  height: 200px !important; }
+
+.Products__card-item-img {
+  height: 200px !important; }
+
+.Products__card-item-link {
+  height: 30px;
+  background-color: #000;
+  -webkit-transform: translateY(40px);
+  -ms-transform: translateY(40px);
+  transform: translateY(40px); }
+
+.Products__card-item-link a {
+  width: 100%;
+  text-decoration: none;
+  color: #fff; }
+
+.Products__card-item-link a:hover {
+  color: gray; }
+
+.Products__card-item:hover .Products__card-item-link {
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px); }
+
+.Products_Pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 120px; }
+  .Products_Pagination .pagination .page-item a {
+    color: #000; }
+  .Products_Pagination .pagination .page-item span {
+    color: #000; }
+  .Products_Pagination .pagination .active span {
+    color: #fff;
+    background: #000 !important;
+    border: 1px solid #000; }
+
+@media screen and (max-width: 1200px) {
+  .Products__card-item {
+    width: 300px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+@media screen and (max-width: 767px) {
+  .Products__card-item {
+    width: 90% !important;
+    height: 500px !important; }
+  .Products__card-item img {
+    width: 380px;
+    height: 450px; }
+  .Products__card-item-img {
+    height: 300px !important; }
+  .NEW__PRODUCTS h1 {
+    font-size: 18px; }
+  .Products__header-text {
+    font-size: 13px; } }
+
+@media screen and (max-width: 550px) {
+  .Products__card-item img {
+    width: 300px;
+    height: 300px; }
+  .Products__card-item {
+    width: 400px !important;
+    height: 430px !important; } }
+
+@media screen and (max-width: 370px) {
+  .NEW__PRODUCTS h1 {
+    font-size: 15px; }
+  .Products__header-text {
+    font-size: 10px; } }

@@ -1,0 +1,145 @@
+.Header-head{
+    height: 500px;
+    margin-top: 10px;
+    background-color: #eef3f6;
+}
+
+.Header-Col:first-child{
+    height: 500px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Header-Col-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header-Col-logo-text{
+    margin-left: 10%;
+    text-align: start;
+}
+.Header-Col-logo-text h2{
+     width: 450px;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 42px;
+    font-style: normal;
+    color: #1a1a1a;
+    margin-top: 20px;
+}
+.Header-Col-logo-text p{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+
+}
+.Header-Col-logo-text button{
+    border: 1px solid #000;
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: inherit;
+
+
+}
+.Header-Col-logo-text button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.Header-Col-logo-text button h3{
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.Header-Col-logo-img img{
+    width: 100%;
+    margin-left: 5%;
+}
+.Header-Col:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+@media screen and (max-width:768px){
+ 
+    .Header-Col-logo-text h2{
+     font-size: 28px;
+    }
+    .Header-Col-logo-text p{
+        font-size: 18px;
+    }
+    .Header-Col-logo-text button{
+        padding: 5px 20px;
+    }
+    .Header-Col-logo-img{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width:600px){
+    .Header-Col-logo-text{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 400px;
+        text-align: center;
+    }
+ 
+    .Header-Col-logo-text h2{
+     font-size: 25px;
+     width: 300px;
+    }
+    .Header-Col-logo-text p{
+        font-size: 10px;
+    }
+    .Header-Col-logo-text button{
+        padding: 0px 10px;
+    }
+    .Header-Col-logo-img{
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width:470px){
+    .Header-Col-logo-text{
+        width: 350px;
+    }
+ 
+    .Header-Col-logo-text h2{
+     font-size: 25px;
+     width: 250px;
+    }
+    .Header-Col-logo-text p{
+        font-size: 14px;
+    }
+    .Header-Col-logo-text button{
+        padding: 0px 10px;
+    }
+    .Header-Col-logo-img{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width:360px){
+    .Header-Col-logo-text{
+        width: 250px;
+    }
+}

@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+
+.App__Navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.App-container{
+  margin-top: 250px;
+}
+.modul{
+  width: fit-content;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  z-index: 9999;
+  position: fixed;
+  right: 2%;
+  top: 500px;
+}
+.App_loading{
+  width: 40px;
+  margin-top: 300px;
+  z-index: 9999999999;
+}
+

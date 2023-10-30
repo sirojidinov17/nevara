@@ -1,0 +1,17 @@
+img {
+  width: 300px; }
+
+.AddCard table {
+  width: 80%;
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important; }
+  .AddCard table thead td {
+    border: 1px solid grey; }
+  .AddCard table tbody td {
+    border: 1px solid grey; }
+    .AddCard table tbody td img {
+      width: 120px;
+      height: 120px; }
+    .AddCard table tbody td span {
+      cursor: pointer; }

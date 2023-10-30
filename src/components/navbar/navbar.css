@@ -1,0 +1,195 @@
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  position: unset;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+
+.Navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.logo {
+  padding-bottom: 20px; }
+  .logo a img {
+    width: 200px; }
+
+.Navbar-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.Navbar-links a h3, .Navbar-links a {
+  font-size: 14px;
+  text-decoration: none;
+  margin-left: 13px;
+  color: #000; }
+
+.Navbar-menu {
+  display: none; }
+
+.Navbar-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.Navbar-icon a {
+  color: #000; }
+
+.Navbar-AiOutlineSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 20px; }
+
+.Navbar-AiOutlineSearch input {
+  width: 200px;
+  position: absolute;
+  top: 100%;
+  -webkit-animation-name: scale-up-ver-top;
+  animation-name: scale-up-ver-top;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s; }
+
+.Icon {
+  cursor: pointer; }
+
+.Navbar-AiOutlineSetting {
+  margin-bottom: 20px; }
+
+.Navbar-BsBagCheck a {
+  text-decoration: none; }
+  .Navbar-BsBagCheck a span {
+    border: 1px solid red;
+    padding: -0px 9px;
+    background-color: #d62525;
+    color: #fff;
+    padding-bottom: 3px;
+    border-radius: 100%;
+    position: relative;
+    top: 15px;
+    right: 15px; }
+
+@-webkit-keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%; }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%; } }
+
+@keyframes scale-up-ver-top {
+  0% {
+    -webkit-transform: scaleY(0.4);
+    transform: scaleY(0.4);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%; }
+  100% {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%; } }
+
+.Navbar-menu-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 290px;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: absolute;
+  top: 100px;
+  -webkit-animation: scale-up-ver-top 0.3s;
+  animation: scale-up-ver-top 0.3s; }
+
+.Navbar-BsBagCheck {
+  margin-bottom: 20px; }
+  .Navbar-BsBagCheck .block {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    position: relative;
+    top: -10px;
+    left: 40%;
+    bottom: 10px;
+    border-radius: 100%;
+    color: white;
+    z-index: 9999;
+    position: relative;
+    top: -30px; }
+  .Navbar-BsBagCheck .block:last-child {
+    position: relative;
+    top: 30px; }
+
+@media screen and (max-width: 767px) {
+  .Navbar-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .Navbar-menu-links a h3, .Navbar-menu-links a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10xp;
+    background-color: whitesmoke; }
+  .Navbar-menu-links {
+    width: 1200px;
+    position: relative;
+    top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .Navbar-links {
+    display: none; }
+  .Navbar-AiOutlineSearch input {
+    position: absolute;
+    top: 100%; } }

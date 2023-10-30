@@ -1,0 +1,68 @@
+
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Veggie Stew",
+         "price":"2345$",
+        "img":"https://images.ctfassets.net/sb1xvu3xkr0q/3T6v90i2vM4yQhUrpGZCKx/fde3c87fde6d719df4dbf4c24aa11519/Cnet_image_of_Apple_MacBook_Air_512GB_M1.jpg",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+      
+      },
+      {
+        "id": 2,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://avatars.mds.yandex.net/get-mpic/5235295/img_id3926793397196392716.jpeg/orig",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+
+      },
+      {
+        "id": 3,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://trashbox.ru/files/1123969_4037e5/0.jpg-orig.jpg",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+      },
+      {
+        "id": 4,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://cdn.shopify.com/s/files/1/0573/6772/4084/products/mbp_15_gray0000b.jpgF3755060-6A2C-41CF-8EA5-46AA72914163Zoom_53533ff6-7d40-430e-942e-21248a54ca4e.jpg?v=1647251106",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+
+      },
+      {
+        "id": 5,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://cdn.mos.cms.futurecdn.net/TUjb9AFCP2xyuduZorSLLn.jpg",
+        "minicard":"https://m.media-amazon.com/images/I/51bTczckffL.jpg",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+
+      },
+      {
+        "id": 6,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://cdn.mos.cms.futurecdn.net/JaK3H25QKMbSjNEpZEz6jH-1200-80.jpg",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+
+      },
+      {
+        "id": 7,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://static.newmobilelife.com/wp-content/uploads/2019/02/macbookpro17-2011-1920x1158.jpg",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+
+      },
+      {
+        "id": 8,
+        "title": "Veggie Stew",
+        "price":"2345$",
+        "img":"https://mobi-love.ru/images/thumbnails/3099/2170/detailed/12/orig__29_.jpg",
+        "description":"Apple M2 Pro chip 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth. Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW Video decode engine Video encode engine ProRes encode and decode engine"
+      }
+    ]
+  }

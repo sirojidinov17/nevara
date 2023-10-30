@@ -1,0 +1,87 @@
+.ProductsDetailes{
+}
+
+.ProductsDetailes-col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    height: 350px;
+}
+.ProductsDetailes-col .description{
+    width: 400px;
+    font-size: 20px;
+}
+.ProductsDetailes__img img{
+    margin: 20px;
+    width: 100px;
+    cursor: pointer;
+}
+ .activ{
+border: 3px solid #000;
+
+}
+.ProductsDetailes-col-btn{
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.ProductsDetailes-col-btn button{
+    border: none;
+    height: 100%;
+    width: 20%;
+    background-color: #000;
+    color: #fff;
+}
+.ProductsDetailes-col-addtocard{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+.ProductsDetailes-col-addtocard:hover{
+    opacity: 0.7;
+}
+.ProductsDetailes-col-links{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.ProductsDetailes_images{
+    display: flex;
+    width: 120% !important;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+}
+.ProductsDetailes_images img{
+    width: 60px;
+}
+
+@media screen and (max-width:495px){
+    .ProductsDetailes-col{
+        height: 300px;
+    }
+    .ProductsDetailes__img{
+        width:70% !important;
+    }
+    .ProductsDetailes-col h3{
+        font-size: 20px;
+    }
+    .ProductsDetailes-col h5{
+        font-size: 18px;
+    }
+    .ProductsDetailes-col p{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,28 @@
+img{
+    width: 300px;
+}
+
+.AddCard{
+    table{
+        width: 80%;
+        height: fit-content !important;
+        thead{
+            td{
+                border: 1px solid grey;
+
+            }
+        }
+        tbody{
+            td{
+                border: 1px solid grey;
+                img{
+                    width: 120px;
+                    height: 120px;
+                }
+                span{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
